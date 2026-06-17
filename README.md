@@ -347,7 +347,9 @@ If you found this project useful:
 
 ### Adeniyi Ojedele (Niyi De Great)
 
-Microbiologist | UI/UX Designer | Cybersecurity Enthusiast | Founder of Neotherion
+Cybersecurity Analyst | UI/UX Designer | Cybersecurity + AI Enthusiast | Founder of Neotherion
+
+Email: ojedeleadeniyi1@gmail.com
 
 Passionate about cybersecurity, secure systems, digital safety, and building tools that make technology safer and easier to use.
 
