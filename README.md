@@ -49,8 +49,7 @@ This project demonstrates practical cybersecurity and software development skill
 ## Main Interface
 
 The main dashboard provides a simple and intuitive experience, allowing users to enter a password, analyze its strength, and receive recommendations instantly.
-
-![Main Interface](screenshots/main-interface.png)
+![Main Interface](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/main-interface.png)
 
 ---
 
@@ -60,7 +59,7 @@ Example of a password that satisfies all security requirements including length,
 
 **Security Status:** Strong
 
-![Strong Password](screenshots/strong.png)
+![Strong Password](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/strong.png)
 
 ---
 
@@ -72,7 +71,7 @@ Example of a password that meets all security requirements but contains a possib
 
 **Additional Notice:** Password may contain a year or birthday-related pattern. Users are encouraged to make the password less predictable.
 
-![Strong Password With Year Detection](screenshots/strong-year.png)
+![Strong Password With Year Detection](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/strong-year.png)
 
 ---
 
@@ -88,7 +87,7 @@ Example of a password that meets some security requirements but could be improve
 * Add more special characters
 * Use less predictable character combinations
 
-![Moderate Password](screenshots/moderate.png)
+![Moderate Password](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/Moderate.png)
 
 ---
 
@@ -106,7 +105,7 @@ Example of a password that lacks sufficient complexity and does not meet recomme
 * Include special symbols
 * Use at least 8 characters
 
-![Weak Password](screenshots/weak.png)
+![Weak Password]([screenshots/weak.png](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/weak.png))
 
 ---
 
@@ -122,7 +121,7 @@ The password is common and should not be used.
 
 KeyStrength immediately warns the user and recommends creating a more unique password.
 
-![Common Password Detection](screenshots/weak-common.png)
+![Common Password Detection](https://github.com/Niyidegreat/keystrenght/blob/719d9cdab64d7cc0b2d854274d39401a037847b4/weak-common.png)
 
 ---
 
@@ -153,8 +152,8 @@ The tool checks for:
 | Number                  | Required    |
 | Special Character       | Required    |
 | Common Password Check   | Required    |
-| Name Detection          | Recommended |
-| Birthday/Year Detection | Recommended |
+| Name Detection          | Alerted     |
+| Birthday/Year Detection | Alerted     |
 
 ---
 
@@ -182,7 +181,7 @@ password123
 ### Output
 
 ```text
-❌ REJECTED
+❌ WEAK
 
 The password is common.
 
@@ -243,7 +242,7 @@ Recommendations:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/KeyStrength.git
+https://github.com/Niyidegreat/keystrenght.git
 ```
 
 ## Navigate to Project Directory
@@ -276,16 +275,13 @@ KeyStrength/
 ├── README.md
 │
 ├── screenshots/
-│   ├── main-interface.png
-│   ├── moderate.png
-│   ├── strong.png
-│   ├── strong-year.png
-│   ├── weak.png
-│   └── weak-common.png
-│
-└── assets/
-    └── logo.png
-```
+   ├── main-interface.png
+   ├── moderate.png
+   ├── strong.png
+   ├── strong-year.png
+   ├── weak.png
+   └── weak-common.png
+
 
 ---
 
