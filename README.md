@@ -2,49 +2,124 @@
 
 > Intelligent Password Strength Analyzer for Better Cybersecurity
 
-**KeyStrength** is a modern Python-based password strength analysis tool designed to help users create stronger and more secure passwords. It evaluates passwords against cybersecurity best practices, detects weak and predictable patterns, identifies common passwords, and provides actionable recommendations for improving password security.
+KeyStrength is a Python-based password security assessment platform developed to analyze password strength beyond traditional complexity checks.
 
-Unlike basic password checkers, KeyStrength analyzes password complexity, identifies possible personal information patterns such as names and birth years, and suggests stronger alternatives to improve account security.
+The system evaluates passwords using a multi-layered security assessment approach that combines complexity validation, pattern recognition, common password detection, personal information analysis, and intelligent security recommendations.
 
-**Developer:** Adeniyi Ojedele (Niyi De Great)
+Unlike traditional password checkers that focus only on character requirements, KeyStrength identifies real-world weaknesses that attackers commonly exploit during credential attacks, including predictable naming conventions, birth years, common password structures, and low-entropy patterns.
+
+The project was developed as a practical cybersecurity initiative to demonstrate secure software development, authentication security principles, password risk assessment, and user-focused defensive security controls.
+
+Business Problem
+
+Compromised credentials remain one of the most common initial attack vectors used in:
+
+Account Takeovers (ATO)
+Credential Stuffing Attacks
+Brute Force Attacks
+Password Spraying Campaigns
+Social Engineering Operations
+Unauthorized Access Incidents
+
+Despite increased security awareness, many users continue to create passwords based on:
+
+Personal names
+Birth years
+Keyboard patterns
+Common dictionary words
+Predictable substitutions
+
+These weaknesses significantly reduce password entropy and increase the likelihood of compromise.
+
+KeyStrength was designed to identify and mitigate these risks before passwords are used in production environments.
+
+Core Security Features
+Password Strength Analysis
+
+Performs comprehensive password evaluation based on:
+
+Length
+Character diversity
+Entropy estimation
+Pattern analysis
+Predictability assessment
+Common Password Detection and Rejection
+
+Identifies passwords frequently found in:
+
+Public breach datasets
+Credential dumps
+Dictionary attack wordlists
+
+Examples:
+
+password123
+admin123
+qwerty123
+12345678
+Personal Information Pattern Detection
+
+Detects password components derived from:
+
+Names
+Nicknames
+Common identity patterns
+
+This helps reduce vulnerability to targeted password-guessing attacks.
+
+Birthday and Year Detection
+
+Identifies:
+
+Birth years
+Date patterns
+Predictable numerical sequences
+
+Attackers frequently leverage these patterns during account compromise attempts.
+
+Password Complexity Validation
+
+Validates compliance with password security best practices by analyzing:
+
+Uppercase characters
+Lowercase characters
+Numbers
+Special characters
+Minimum length requirements
+Intelligent Security Recommendations
+
+Provides contextual recommendations based on identified weaknesses.
+
+Examples include:
+
+Increase entropy
+Avoid predictable words
+Eliminate personal information
+Increase password length
+Use passphrases
+Strong Password Suggestions
+
+Generates stronger password alternatives aligned with modern password security standards.
+
+Real-Time Security Assessment
+
+Provides immediate password evaluation and security feedback as users type.
+
+Password Visibility Toggle
+
+Enhances usability while maintaining secure password handling practices.
+
+Modern User-Friendly Interface
+
+Clean and intuitive interface focused on accessibility, simplicity, and user education.
+
+Cybersecurity Awareness Support
+
+Educates users on secure password creation practices and promotes stronger security habits.
 
 ---
 
-# 📌 Features
-
-* Password Strength Analysis
-* Common Password Detection and Rejection
-* Name Pattern Detection
-* Birthday/Year Detection
-* Password Complexity Validation
-* Intelligent Security Recommendations
-* Strong Password Suggestions
-* Password Visibility Toggle
-* Modern User-Friendly Interface
-* Real-Time Password Evaluation
-* Cybersecurity Awareness Support
-
----
-
-# 🎯 Skills Demonstrated
-
-This project demonstrates practical cybersecurity and software development skills including:
-
-* Password Security Analysis
-* Authentication Security Principles
-* Python Programming
-* Regular Expressions (Regex)
-* GUI Development with CustomTkinter
-* Input Validation
-* Pattern Recognition
-* Secure Coding Practices
-* User Experience (UX) Design
-* Security Recommendation Systems
-* Cybersecurity Awareness Implementation
-
----
-
-# 🖼️ Application Preview
+# 🖼️ Application Demostration and Preview
 
 ## Main Interface
 
@@ -298,7 +373,17 @@ All analysis is performed offline for privacy and security.
 
 ---
 
-# 🚀 Future Improvements
+## Technical Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Python | Core Application Logic |
+| Tkinter | Graphical User Interface |
+| Regular Expressions (Regex) | Pattern Detection |
+| Git | Version Control |
+| GitHub | Repository Management |
+| Object-Oriented Programming (OOP) | Application Architecture |
+# Future Improvements
 
 Planned enhancements for future versions include:
 
